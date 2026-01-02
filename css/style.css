@@ -396,13 +396,10 @@ border: 1px solid #040F28;
     padding-left: 1rem !important;
     padding-right: 1rem !important;
 }
-/* .g-5{
-    margin: 0;
+.g-5{
+    --bs-gutter-x: 0;
 }
-    .row>*{
-    padding-left: 0;
-    padding-right: 0;
-} */
+   
 }
 .portfolio-btn i{
     font-size: 32px;
