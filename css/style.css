@@ -139,7 +139,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(rgba(4, 15, 40, .7), rgba(4, 15, 40, .7)), url(../images/narainindustries.jpg) center center no-repeat;
+    background: linear-gradient(rgba(4, 15, 40, .7), rgba(4, 15, 40, .7)), url(../images/banner.jpg) center center no-repeat;
     background-size: cover;
     margin-top: 96px;
 }
@@ -396,6 +396,13 @@ border: 1px solid #040F28;
     padding-left: 1rem !important;
     padding-right: 1rem !important;
 }
+.g-5{
+    margin: 0;
+}
+/* .row>*{
+    padding-left: 0;
+    padding-right: 0;
+} */
 }
 .portfolio-btn i{
     font-size: 32px;
