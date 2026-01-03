@@ -407,3 +407,18 @@ border: 1px solid #040F28;
 /* .navbar-brand i{
     font-size: 36px;
 } */
+ .hero-banner{
+  width: 100%;
+  min-height: 100svh;
+  background-image: url('../images/powertech.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+@media (max-width:768px){
+  .hero-banner{
+    background-image: url('../images/powertech-mob.jpg');
+  }
+}
