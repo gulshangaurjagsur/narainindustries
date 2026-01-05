@@ -416,6 +416,7 @@ border: 1px solid #040F28;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
+  margin-top: 96px;
 }
 @media (max-width:768px){
   .hero-banner{
