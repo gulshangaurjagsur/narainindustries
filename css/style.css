@@ -117,7 +117,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(4, 15, 40, .7);
+    background: rgba(4, 15, 40, .9);
     z-index: 1;
 }
 
@@ -422,4 +422,85 @@ border: 1px solid #040F28;
   .hero-banner{
     background-image: url('../images/powertech-mob.jpg');
   }
+}
+
+.why-us-sec {
+  /* background: #F4F6F8; */
+  overflow: hidden; 
+  padding: 4rem 0;
+}
+  .why-us-sec .feature [class^="fas fa-"] {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 60px;
+    flex: 0 0 30px;
+    font-size: 30px;
+    position: relative;
+    margin-bottom: 20px; }
+    .why-us-sec .feature [class^="fas fa-"]:before {
+      color: #040F28;
+      z-index: 2;
+      position: relative; }
+    
+  .why-us-sec .feature h3, .why-us-sec .feature .h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #040F28; }
+  .why-us-sec .feature p {
+    color: rgba(255, 255, 255, 0.7); }
+    .why-us-sec .feature p:last-child {
+      margin-bottom: 0; }
+      .why-us-sec .feature{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+.leadership img{
+    border-radius: 6px;
+}
+.best-used-for {
+  background: #ffffff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.best-used-for h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.best-used-for .subtitle {
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.use-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+}
+
+.use-item {
+  border: 1px solid #f2f2f2;
+  border-radius: 12px;
+  padding: 30px 20px;
+  transition: all 0.3s ease;
+}
+
+.use-item i {
+  font-size: 36px;
+  color: #f36f21; /* Brand orange */
+  margin-bottom: 14px;
+}
+
+.use-item h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #222;
+}
+
+.use-item:hover {
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transform: translateY(-5px);
 }
