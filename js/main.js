@@ -86,14 +86,11 @@ $(document).ready(function () {
 });
 const container = document.getElementById("portfolioContainer");
 
-  for (let i = 2; i <= 43; i++) {
+  for (let i = 1; i <= 43; i++) {
     container.innerHTML += `
       <div class="col-lg-4 col-md-6 portfolio-item">
         <div class="position-relative portfolio-box">
-          <img class="img-fluid" src="images/${i}.jpeg" alt="">
-          <a class="portfolio-btn" href="images/${i}.jpeg" data-lightbox="portfolio">
-            <i class="fas fa-plus text-white"></i>
-          </a>
+          <div class="img-box"><img src="images/${i}.jpeg" alt=""></div>
         </div>
       </div>
     `;
